@@ -1,13 +1,37 @@
+#endereco {
+    text-align: left;
+    margin-left: 15px;}
+
+/*h1, h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}*/
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Ou 'Montserrat' */
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #E0E0E0; /* Cinza Claro */
 }
-
 header {
-    background-color: #f2f2f2;
+    background-color: #414bb4; /* Azul Escuro */
     padding: 20px;
+    color: #e7c725; /* Amarelo */
+}
+#menu {
+   
+    color: #414bb4;
+    padding: 10px;
+ /*  position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;*/ 
+}
+#menu a {
+    color: #FFD600;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
 #present-list {
@@ -16,10 +40,6 @@ header {
     align-items: center;
     margin-top: 20px;
 }
-#endereco {
-    text-align: left;
-    margin-left: 15px;
-}
 
 .present-group {
     margin-top: 30px;
@@ -27,12 +47,13 @@ header {
 
 .present-item {
     text-align: center;
-    border: 2px solid #ddd;
+    border: 2px solid #1A237E;
     padding: 10px;
     border-radius: 8px;
     transition: box-shadow 0.3s;
     width: 300px;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 
 .present-item:hover {
@@ -55,6 +76,6 @@ header {
 }
 
 h1, h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 20px;
 }
