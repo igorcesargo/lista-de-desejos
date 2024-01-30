@@ -1,47 +1,51 @@
-#endereco {
-    text-align: left;
-    margin-left: 15px;}
 
-/*h1, h2 {
-    font-size: 1.5em;
-    margin-top: 20px;
-}*/
 
 body {
     font-family: 'Roboto', sans-serif; /* Ou 'Montserrat' */
     text-align: center;
     margin: 0;
-    padding: 0;
-    background-color: #E0E0E0; /* Cinza Claro */
-   
+    padding: 0;   
+   background-color: #c0c1c7;
 }
 header {
-    background-color: #414bb4; /* Azul Escuro */
+    background-color: #424444; /* Azul Escuro */
     padding: 20px;
-    color: #e7c725; /* Amarelo */
+    color: #2498e6; /* Amarelo */
 }
-#menu {
-   
-    color: #414bb4;
+header p {
+    font-size: 1.3em;
+}
+#menu {      
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px; 
+}
+
+#endereco {
+    text-align: left;
+    margin-left: 15px;
+    
+    border: 2px solid #828286;
     padding: 10px;
- /*  position: absolute;
-    top: 100px;
-    left: 0;
-    right: 0;*/ 
+    border-radius: 8px;
+    
+    width: 250px;
+    
+   
 }
-#menu a {
-    color: #FFD600;
+
+
+#menu a {    
+    color: #292f30;
     text-decoration: none;
     margin: 0 15px;
 }
-
 #present-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
-
 .present-group {
     margin-top: 30px;
 }
