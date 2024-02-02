@@ -87,3 +87,6 @@ h1, h2 {
     font-size: 2em;
     margin-top: 20px;
 }
+.mostrar{
+    display: none;   
+}
