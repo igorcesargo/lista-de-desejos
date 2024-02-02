@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="favoritos.html">
+    <link rel="stylesheet" href="Necessarios.html">
     <title>Lista de Presentes</title>
   
 </head>
@@ -17,14 +18,13 @@
     <br>
     <div id="menu">
         <!-- Adicione links do menu conforme necessário -->
-        <a href="#">Endereço</a>
+        <a href="#"  onclick="Mudarestado('endereco')">Endereço</a>
         <a href="favoritos.html">Favoritos</a>
-        <a href="#">Necessarios</a>
+        <a href="Necessarios.html">Necessarios</a>
         
     </div>
     <br>
-
-    <div id="endereco">
+    <div id="endereco"  class="mostrar">
        <p>Endereço:Rua um casa 2 condominio Recanto do Alecrim 1 <br>
         Itapeba - Marica - Rio de Janeiro <br>
         CEP 24912-545</p> 
@@ -213,5 +213,16 @@
                 </div>
                    
     </div>   
+
+    <script>
+        function Mudarestado(el) {
+            var display = document.getElementById(el).style.display;
+            if(display == "none")
+                document.getElementById(el).style.display = 'block';
+            else
+                document.getElementById(el).style.display = 'none';
+        }
+    </script>
+
 </body>
 </html>
