@@ -11,18 +11,20 @@
     <br>
     <div id="menu">
         <!-- Adicione links do menu conforme necessário -->
-        <a href="#">Endereço</a>
-        <a href="favoritos.html">Favoritos</a>
         <a href="index.html">Pagina principal</a>
+        <a href="#"  onclick="Mudarestado('endereco')">Endereço</a>        
+        <a href="Necessarios.html">Necessarios</a>
+        
         
     </div>
     <br>
-
-    <div id="endereco">
-       <p>Endereço:Rua um casa 2 condominio Recanto do Alecrim 1 <br>
-        Itapeba - Marica - Rio de Janeiro <br>
-        CEP 24912-545</p> 
-    </div>
+    <div id="endereco"  class="mostrar">
+        <a href="https://www.google.com.br/maps/place/Condominio+Recanto+do+Alecrim+I/@-22.9959428,-43.1628546,10.75z/data=!4m6!3m5!1s0x99ed1243e506c3:0x2dfbcf9e8a07b45d!8m2!3d-22.9023921!4d-42.8362164!16s%2Fg%2F11b7fkmvjs?entry=ttu">
+            <p>Endereço:Rua um casa 2 Condominio Recanto do Alecrim 1 <br>
+             Itapeba - Marica - Rio de Janeiro <br>
+             CEP 24912-545</p>
+        </a>
+     </div>
 <br>
     
     <div id="present-list">    
@@ -51,6 +53,14 @@
             </div> 
     <!-- Adicione mais itens conforme necessário -->
 </div>
-
+<script>
+    function Mudarestado(el) {
+        var display = document.getElementById(el).style.display;
+        if(display == "none")
+            document.getElementById(el).style.display = 'block';
+        else
+            document.getElementById(el).style.display = 'none';
+    }
+</script>
 </body>
 </html>
