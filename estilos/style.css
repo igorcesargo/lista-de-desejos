@@ -42,7 +42,7 @@ header p {
 #menu a {    
     color: #292f30;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 5px;
 }
 #present-list {
     display: flex;
