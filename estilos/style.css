@@ -90,3 +90,6 @@ h1, h2 {
 .mostrar{
     display: none;   
 }
+
+h2 {
+    text-decoration: underline;}
